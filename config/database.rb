@@ -25,12 +25,11 @@ ActiveRecord::Base.configurations[:development] = {
 
 ActiveRecord::Base.configurations[:production] = {
   :adapter   => 'postgresql',
-  :database  => 'osbonscompanheiros_com_production',
-  :username  => 'root',
-  :password  => '',
-  :host      => 'localhost',
+  :database  => 'd1ba9td45oa6dp',
+  :username  => 'ktmlkrfyktytni',
+  :password  => 'qCGpPKaVyoGoW6p7m4qq163lIF',
+  :host      => 'ec2-23-21-243-117.compute-1.amazonaws.com',
   :port      => 5432
-
 }
 
 ActiveRecord::Base.configurations[:test] = {
